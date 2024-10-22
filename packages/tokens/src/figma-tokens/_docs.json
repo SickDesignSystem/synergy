@@ -2861,6 +2861,28 @@
         "description": {
           "value": "Description for application shell",
           "type": "text"
+        },
+        "fixed-width": {
+          "desktop": {
+            "title": {
+              "value": "Fixed Width Navigation (Desktop)",
+              "type": "text"
+            },
+            "description": {
+              "value": "General Behaviour\n\nThe navigation maintains its compact width until the user clicks the “show sidebar” icon at the bottom. When the navigation expands, it shifts the content area. To reduce the navigation's width, the user simply clicks “Hide sidebar” again.",
+              "type": "text"
+            }
+          },
+          "mobile": {
+            "title": {
+              "value": "Fixed Width Navigation (Mobile)",
+              "type": "text"
+            },
+            "description": {
+              "value": "General Behaviour\n\nThe navigation maintains its compact width until the user clicks the “show sidebar” icon at the bottom. When the navigation expands, it shifts the content area. To reduce the navigation's width, the user simply clicks “Hide sidebar” again.",
+              "type": "text"
+            }
+          }
         }
       },
       "contact-form": {
