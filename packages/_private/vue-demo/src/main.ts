@@ -6,10 +6,12 @@ import '@fontsource/open-sans/600-italic.css';
 import '@fontsource/open-sans/700.css';
 import '@fontsource/open-sans/700-italic.css';
 
+import { enableExperimentalSettingEmitEvents } from '@synergy-design-system/components';
 import '@synergy-design-system/tokens/themes/dark.css';
 import '@synergy-design-system/tokens/themes/light.css';
 import '@synergy-design-system/components/index.css';
 import '@synergy-design-system/styles';
+import { setGlobalSize } from './shared';
 import './app.css';
 
 import { createApp } from 'vue';
@@ -29,6 +31,9 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
 });
+
+enableExperimentalSettingEmitEvents();
+setGlobalSize('medium');
 
 createApp(App)
   .use(router)
